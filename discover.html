@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookLook - Discover</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .container-display{
+            margin: 1% 5% 5% 5%;
+            width:90%;
+            height: 1200px;
+            background-color: #edd45a;
+            opacity: 70%;
+            border-radius: 10px;
+            box-shadow: 10px 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 2fr 2fr;
+        }
+        h2{
+            width: 90%;
+            background-color: #edd45a;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 5px;
+            margin-left: 5%;
+        }
+        .item a:link, a:visited{
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 100%;
+            height: 500px;
+            border-radius: 5px;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            border-style: solid;
+            border-color: black;
+        }
+        .container-categories{
+            margin: 1% 5% 5% 5%;
+            width:90%;
+            height: 500px;
+            background-color: #edd45a;
+            opacity: 70%;
+            border-radius: 10px;
+            box-shadow: 10px 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }    
+        .categ a:link, a:visited{
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 101%;
+            height: 200px;
+            border-radius: 5px;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
+            border-style: solid;
+            border-color: black;
+        }    
+        .item a:link:hover{ 
+            background-size: 110%;
+            width: 110%;
+            margin-left: -5%;
+            margin-top: -5%;
+        }
+        .categ a:link:hover{ 
+            width:110%;
+            height: 220px;
+            margin-left: -5%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="spacing"></div>
+<h2>Best sellers</h2>
+<div class="container-display">
+    <div class="item"><a style="background-image: url(Resources/001.jpg); background-size:100% 500px;" href="Books/001.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/002.jpg); background-size:100% 500px;" href="Books/002.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/003.jpg); background-size:100% 500px;" href="Books/003.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/004.jpg); background-size:100% 500px;" href="Books/004.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/005.jpg); background-size:100% 500px;" href="Books/005.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/006.jpg); background-size:100% 500px;" href="Books/006.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/007.jpg); background-size:100% 500px;" href="Books/007.html"></a></div>  
+    <div class="item"><a style="background-image: url(Resources/008.jpg); background-size:100% 500px;" href="Books/008.html"></a></div>  
+</div>
+
+<h2>Popular Categories</h2>
+<div class="container-categories">
+    <div class="categ"><a style="background-image: url(Resources/Romance.jpg); background-size:100%;" href="Genres/Romance.html"><div class="label">Romance</div></a></div>  
+    <div class="categ"><a style="background-image: url(Resources/Mystery.jpg); background-size:100%;" href="Genres/Mystery.html"><div class="label">Mystery</div></a></div>  
+    <div class="categ"><a style="background-image: url(Resources/Adventure.jpg); background-size:100%;" href="Genres/Adventure.html"><div class="label">Adventure</div></a></div>  
+    <div class="categ"><a style="background-image: url(Resources/Self-help.jpg); background-size:100%;" href="Genres/Self-help.html"><div class="label">Self-help</div></a></div>  
+</div>
+
+<header>
+<h1>/BookLook/</h1>
+<div class="menu">
+<h1>⇔</h1>
+<div class="dropdown-content">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><div class="place-holder"></div></li>
+
+    </ul>
+</div>
+</div>
+</div>
+</header>
+
+
+
+</body>
+</html>
